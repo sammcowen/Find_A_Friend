@@ -6,8 +6,12 @@ const PORT = process.env.PORT || 3001;
 
 app.use (express.json());
 app.use(express.urlencoded({extended:true}));
-app.use(require('./routes'));
+// app.use(require('./routes'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb')(PORT, () => console.log('🌎 Connected on localhost:${PORT}'))
-
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Find_A_Friend', {
+// useFindAndModify:false,
+useNewUrlParser:true,
+useUnifiedTopology:true
+});
+mongoose.set('debug', true);
 app.listen(PORT, () => console.log(`🌎 Connected on localhost:${PORT}`));
