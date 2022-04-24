@@ -1,5 +1,5 @@
 const { User } = require('../models');
-const { findOneAndUpdate, findOneAndRemove } = require('../models/User');
+
 
 const userController = {
     // get all users
