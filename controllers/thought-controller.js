@@ -30,10 +30,10 @@ const thoughtController = {
     // create  a thought 
     createNewThought({ body }, res) {
         Thought.create(body)
-            .then((dbThoughtData) => {
+            .then(({_id}) => {
                 return User.findOneAndUpdate(
                     { _id: body.userId },
-                    { $addToSet: { thoughts: ThoughtData._id } },
+                    { $push: { thoughts: _id } },
                     { new: true }
                 );
             })
@@ -46,7 +46,7 @@ const thoughtController = {
             })
             .catch(err => {
                 console.log(err);
-                res.status(400).json(err);
+                res.status(500).json(err);
             });
     },
     // add a reaction 
