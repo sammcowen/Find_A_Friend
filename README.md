@@ -41,7 +41,15 @@
   ~~~
   npm i express mongoose moment 
   ~~~
-  then you would start the server by entering npm start . then you could open Postman app or Insomnia to test the routes. 
+  then you would start the server by entering
+  ~~~
+  npm start
+  ~~~
+  then you could open Postman app or Insomnia to test the routes. 
+  
+  ## Demo 
+  
+    [Click here for a video that demonstrates all the routes being tested in Insomnia.](https://drive.google.com/file/d/1lHQ0SeQXkzLe9bC-O0YwgN0QhTG0qvuq/view)
 
   ## Usage 👩🏽‍💻
   Instructions for use:
