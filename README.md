@@ -12,8 +12,6 @@
 
 -[Demo](#Demo)
 
-  [Click here for a video that demonstrates all the routes being tested in Insomnia.](https://drive.google.com/file/d/1lHQ0SeQXkzLe9bC-O0YwgN0QhTG0qvuq/view)
-
 -[Usage](#Usage)
 
 -[Contributions](#Contributions)
@@ -47,9 +45,9 @@
   ~~~
   then you could open Postman app or Insomnia to test the routes. 
   
-  ## Demo 
   
-    [Click here for a video that demonstrates all the routes being tested in Insomnia.](https://drive.google.com/file/d/1lHQ0SeQXkzLe9bC-O0YwgN0QhTG0qvuq/view)
+  ## Demo   
+ [Link to full Demo of Test Routes](https://drive.google.com/file/d/1lHQ0SeQXkzLe9bC-O0YwgN0QhTG0qvuq/view)
 
   ## Usage 👩🏽‍💻
   Instructions for use:
